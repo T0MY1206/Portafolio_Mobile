@@ -241,6 +241,51 @@ function MainContent() {
                 </View>
               </View>
             </View>
+            <View style={[styles.projectCard, { backgroundColor: bgSecondary }]}>
+              <Text style={[styles.projectTitle, { color: accentColor }]}>{t('projects.pronafe.title')}</Text>
+              <Text style={[styles.projectDesc, { color: textSecondary }]}>{t('projects.pronafe.description')}</Text>
+              <View style={styles.projectTags}>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>PHP</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Laravel</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>MySQL</Text>
+                </View>
+              </View>
+            </View>
+            <View style={[styles.projectCard, { backgroundColor: bgSecondary }]}>
+              <Text style={[styles.projectTitle, { color: accentColor }]}>{t('projects.begenerico.title')}</Text>
+              <Text style={[styles.projectDesc, { color: textSecondary }]}>{t('projects.begenerico.description')}</Text>
+              <View style={styles.projectTags}>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Backend</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>REST API</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Database</Text>
+                </View>
+              </View>
+            </View>
+            <View style={[styles.projectCard, { backgroundColor: bgSecondary }]}>
+              <Text style={[styles.projectTitle, { color: accentColor }]}>{t('projects.urlshortener.title')}</Text>
+              <Text style={[styles.projectDesc, { color: textSecondary }]}>{t('projects.urlshortener.description')}</Text>
+              <View style={styles.projectTags}>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>.NET</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>OpenAPI</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Scalar</Text>
+                </View>
+              </View>
+            </View>
           </>
         );
       case 'Contact':

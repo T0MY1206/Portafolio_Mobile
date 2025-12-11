@@ -79,6 +79,18 @@ export const translations = {
       camunda: {
         title: "Camunda 7 BPM Frontend",
         description: "BPM/DMN flow with AngularJS forms, PostgreSQL, and custom Camunda UI"
+      },
+      pronafe: {
+        title: "Proyecto Pronafe",
+        description: "Educational management system with PHP/Laravel, MySQL, and modern web technologies"
+      },
+      begenerico: {
+        title: "BE Generico",
+        description: "Generic backend system with REST APIs and database integration"
+      },
+      urlshortener: {
+        title: "URL Shortener (.NET)",
+        description: "Minimal API for URL shortening with Scalar docs, OpenAPI (ES/EN), and dark/light theme"
       }
     },
     contact: {
@@ -172,6 +184,18 @@ export const translations = {
       camunda: {
         title: "Frontend BPM Camunda 7",
         description: "Flujo BPM/DMN con formularios AngularJS, PostgreSQL y UI personalizada"
+      },
+      pronafe: {
+        title: "Proyecto Pronafe",
+        description: "Sistema de gestión educativa con PHP/Laravel, MySQL y tecnologías web modernas"
+      },
+      begenerico: {
+        title: "BE Generico",
+        description: "Sistema backend genérico con APIs REST e integración de base de datos"
+      },
+      urlshortener: {
+        title: "URL Shortener (.NET)",
+        description: "API mínima para acortar URLs con documentación Scalar, OpenAPI (ES/EN) y tema oscuro/claro"
       }
     },
     contact: {
