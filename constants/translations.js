@@ -71,6 +71,14 @@ export const translations = {
       mobile: {
         title: "Portfolio Mobile",
         description: "Cross-platform mobile portfolio with React Native and Expo"
+      },
+      springboot: {
+        title: "Spring Boot Backend",
+        description: "Microservice with Spring Boot, Tomcat, JPA/Hibernate, Swagger, SQL"
+      },
+      camunda: {
+        title: "Camunda 7 BPM Frontend",
+        description: "BPM/DMN flow with AngularJS forms, PostgreSQL, and custom Camunda UI"
       }
     },
     contact: {
@@ -156,6 +164,14 @@ export const translations = {
       mobile: {
         title: "Portfolio Mobile",
         description: "Portfolio móvil multiplataforma con React Native y Expo"
+      },
+      springboot: {
+        title: "Backend Spring Boot",
+        description: "Microservicio con Spring Boot, Tomcat, JPA/Hibernate, Swagger, SQL"
+      },
+      camunda: {
+        title: "Frontend BPM Camunda 7",
+        description: "Flujo BPM/DMN con formularios AngularJS, PostgreSQL y UI personalizada"
       }
     },
     contact: {

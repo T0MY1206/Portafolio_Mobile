@@ -211,6 +211,36 @@ function MainContent() {
                 </View>
               </View>
             </View>
+            <View style={[styles.projectCard, { backgroundColor: bgSecondary }]}>
+              <Text style={[styles.projectTitle, { color: accentColor }]}>{t('projects.springboot.title')}</Text>
+              <Text style={[styles.projectDesc, { color: textSecondary }]}>{t('projects.springboot.description')}</Text>
+              <View style={styles.projectTags}>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Spring Boot</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>JPA</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Swagger</Text>
+                </View>
+              </View>
+            </View>
+            <View style={[styles.projectCard, { backgroundColor: bgSecondary }]}>
+              <Text style={[styles.projectTitle, { color: accentColor }]}>{t('projects.camunda.title')}</Text>
+              <Text style={[styles.projectDesc, { color: textSecondary }]}>{t('projects.camunda.description')}</Text>
+              <View style={styles.projectTags}>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>Camunda 7</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>AngularJS</Text>
+                </View>
+                <View style={[styles.projectTag, { backgroundColor: accentColor }]}>
+                  <Text style={styles.projectTagText}>PostgreSQL</Text>
+                </View>
+              </View>
+            </View>
           </>
         );
       case 'Contact':
